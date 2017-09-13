@@ -171,7 +171,6 @@
 
     <!-- initialize custom libraries if API credentials are valid -->
     <?php
-echo("app is ".APP_ID)
         if (
             (defined("APP_ID") && APP_ID != "") &&
             (defined("APP_KEY") && APP_KEY != "") &&
