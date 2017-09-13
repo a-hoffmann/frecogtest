@@ -12,7 +12,7 @@
 <html lang="en">
 
 <head>
-    <title>Kairos Emotion Demo</title>  
+    <title>Facial Recog for G</title>  
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="../images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 main-video-container">
                 <div class="video-wrapper">
-                    <video id="video" width="100%" mediaId="video_1" src="https://media.kairos.com/demo/emotion/videos/video_1.mp4" muted  playsinline></video>
+                    <video id="video" width="100%" mediaId="video_1" src="" muted  playsinline></video>
                     <div class="video-controls">
                         <a href="/" class="play" id="play-pause"></a>
                         <div id="progress">  
