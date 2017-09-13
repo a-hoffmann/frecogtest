@@ -1,18 +1,12 @@
 <?php
-    //------------------------------------
-    // Emotion Demo Module
-    // created: March 2016
-    // last modified: October 2016
-    // author: Steve Rucker
-    //------------------------------------
-
+    
     $configs = include('../config.php');
 ?>
 <html>
 <html lang="en">
 
 <head>
-    <title>Kairos Emotion Demo</title>  
+    <title>Facial Recog test</title>  
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link href="../images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -177,6 +171,7 @@
 
     <!-- initialize custom libraries if API credentials are valid -->
     <?php
+echo("app is ".APP_ID)
         if (
             (defined("APP_ID") && APP_ID != "") &&
             (defined("APP_KEY") && APP_KEY != "") &&
