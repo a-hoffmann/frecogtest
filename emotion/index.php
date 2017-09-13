@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="css/emotion.css">
     <link rel="stylesheet" href="css/emotion-mediaqueries.css">
 </head>
-<body>
+<body style="background:black;">
     <div class="main-container container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 main-video-container">
                 <div class="video-wrapper">
-                    <video id="video" width="100%" mediaId="video_1" src="https://media.kairos.com/demo/emotion/videos/video_1.mp4" muted  playsinline></video>
+                    <video id="video" width="100%" mediaId="video_1" src="" muted  playsinline></video>
                     <div class="video-controls">
                         <a href="/" class="play" id="play-pause"></a>
                         <div id="progress">  
@@ -96,11 +96,11 @@
                 <div class="upload-error"></div>
             </div>
             <div class="url col-xs-6 col-sm-8 col-md-8">
-                <input type="text" class="url-from-web" value="URL from the web" />
+              <!--  <input type="text" class="url-from-web" value="URL from the web" /> -->
                 <div class="url-error"></div>
             </div>
             <div class="submit col-xs-6 col-sm-4 col-md-4">
-                <button class="submit-button btn btn-kairos">SUBMIT</button>
+               <!-- <button class="submit-button btn btn-kairos">SUBMIT</button> -->
             </div>
             <div class="ui-buttons-mask"></div>
         </div>
