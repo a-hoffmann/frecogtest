@@ -1,8 +1,8 @@
 <?php
 
-define( 'APP_ID', getenv('app_id'));
-define( 'APP_KEY', getenv('app_key'));
-define( 'API_URL', 'https://api.kairos.com');
+define( 'APP_ID', (getenv('APP_ID') ? getenv('app_id') : ''));
+define( 'APP_KEY', (getenv('APP_KEY') ? getenv('app_key') : ''));
+define( 'API_URL', (getenv('API_URL') ? getenv('api_url') : ''));
 define( 'DEMO1_ID', '');
 define( 'CURL_API_TIMEOUT', 300);
 define( 'API_TIMEOUT', 10);
